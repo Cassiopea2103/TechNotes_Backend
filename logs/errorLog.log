@@ -1,0 +1,304 @@
+20/ 11/ 2022	20: 15: 56	64fadda4-4440-4843-938f-5340b056e664	TypeError: Cannot read properties of undefined (reading 'length')	 GET	/users
+    	undefined
+20/ 11/ 2022	20: 16: 29	76d5e3d5-b4ae-490e-8ce6-e1b7588c0eab	TypeError: missing is not a function	 GET	/users
+    	undefined
+20/ 11/ 2022	21: 02: 24	e1395934-c3f7-4c4e-86ab-7c745b9e4b62	SyntaxError: Unexpected token } in JSON at position 69	 POST	/users
+    	undefined
+20/ 11/ 2022	21: 02: 35	cf6ff78b-43ca-48f9-b886-73ea6a5506fd	TypeError: Cannot read properties of undefined (reading 'length')	 POST	/users
+    	undefined
+20/ 11/ 2022	21: 08: 50	5c7ad0c2-4821-4ec6-8151-31cf41a4d541	TypeError: Cannot read properties of undefined (reading 'length')	 POST	/users
+    	undefined
+20/ 11/ 2022	21: 10: 05	082c4e10-d116-40c5-8450-cf3d8407301c	ReferenceError: missingFiel is not defined	 POST	/users
+    	undefined
+22/ 11/ 2022	03: 13: 25	cbde1076-cc43-49f6-bb00-c1a89f084ef2	TypeError: Cannot read properties of undefined (reading 'length')	 PATCH	/users
+    	undefined
+22/ 11/ 2022	03: 24: 08	bdd2c14e-527c-4226-8a7e-2d699d316a3f	CastError: Cast to ObjectId failed for value "1637c406ac4310bb0fec2c311" (type string) at path "_id" for model "User"	 DELETE	/users
+    	undefined
+22/ 11/ 2022	03: 58: 07	3f5f8044-207a-4a43-9617-546caa2020bf	TypeError: Cannot read properties of undefined (reading 'substring')	 DELETE	/notes
+    	undefined
+22/ 11/ 2022	04: 12: 21	8dba4f15-6e1c-4b9e-bcbb-0598e66ef2af	Error: data and hash arguments required	 GET	/users
+    	undefined
+22/ 11/ 2022	04: 12: 26	c02d0a73-c05b-4936-a14f-a794b7eb2e30	Error: data and hash arguments required	 GET	/users
+    	undefined
+23/ 11/ 2022	14: 25: 46	79e2ca14-185d-4aee-a4ec-30fc9d3abb32	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+24/ 11/ 2022	23: 38: 51	4647def4-9c20-40bb-ba3d-daede6e21a6e	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+24/ 11/ 2022	23: 38: 51	100697b2-f548-462b-b109-23a104bf426b	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 07	4fde7d4f-fdcb-46bb-8a94-8cf88be42cb2	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 07	817988fe-2a85-43fd-a6ad-ee3c87974d81	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 13	b01e8b57-1310-4326-95a2-be51ae87639d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 13	f950e119-04a5-4734-9bdb-adafbc6a9c75	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 29	87b0d512-0091-4a21-8789-e6ddc70f74de	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+24/ 11/ 2022	23: 39: 29	c384b5a7-ed6f-4dd5-8662-26585a288255	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+30/ 11/ 2022	20: 33: 17	5e0b000e-affb-4959-b971-f19fce08da1e	ObjectParameterError: Parameter "filter" to findOne() must be an object, got saliou2103	 POST	/auth/login
+    	undefined
+02/ 12/ 2022	02: 44: 31	e9ee4374-c242-40bc-9a65-5c1301071d9d	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 44: 31	e4803120-7f3d-4ed2-8d54-15084f36b54e	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 45: 32	5377789e-cd9b-4b5f-8ee0-71add95d359e	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 45: 33	53090139-cf84-4689-b068-3d843e985a21	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 45: 33	0c4968c6-bdc9-4049-bd0a-2e8a936adb24	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 45: 57	46bf3191-ce98-4bdf-b100-79f0e8082e73	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 45: 57	2e61237b-2285-48c3-9f92-5230567e14bc	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 46: 03	89cca7dd-ec37-473f-a9df-3a9f698f9015	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 46: 05	90e26454-0921-4a00-9bb7-1fb32f6a70a5	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 46: 05	c56a4676-76a5-4b25-97e2-7fd506904cb1	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 46: 24	97ff5262-dcb7-4ae3-8877-e3aafedb46b0	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 46: 24	2cac38de-ad16-4490-a911-bde186bf9576	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 21	96821066-1587-4692-9dab-9944242b0b59	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 21	07650b04-b749-4394-a55b-d6871dafd2ab	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 36	4d89893d-acd6-40c5-aaf6-b24cd002b85a	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 39	0238655d-b463-4985-82e8-ef24d58a7063	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 42	4b3225dc-2f4a-48bd-a59d-8eb0f9d04271	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 47: 42	f64f938c-dd4b-458b-b895-5d41228e2791	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 48: 27	c6bf0621-7530-47a2-aa5d-25a4740af28a	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 48: 27	1cb3744c-32ad-46b5-883b-2981c75db2c8	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 49: 52	46cb6b45-8a92-47b0-83c9-eb6f7fa4146c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 49: 52	9639fa5a-ce2a-4061-8f01-aef64d30c3c3	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 52: 24	f5a2e797-6fe5-42f2-a5b0-a84a267054c3	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 52: 24	21eb3652-3436-467a-8670-b2d848187643	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 52: 30	638eeb02-f6c9-4a50-a8e9-17c4d18e6132	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 52: 30	26d7ec7d-8a93-4257-9ad9-dafcedc4a1ae	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 53: 45	9a4bdbae-7196-403b-9679-8aeb15db5d2c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 53: 45	48329f47-6630-48fe-85b9-e5d8748d5a4c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 53: 52	0cf062ec-b777-4815-a9cb-ae7f145e8ffb	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 53: 52	c8b563dc-18dd-4f8b-89c7-f556aa3a2d08	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 57: 41	53d0d734-9dc3-4911-bacb-d2fe5275c2b2	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 57: 42	66e4af5e-0280-4140-ac7c-0e630db4e0f7	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 01	ff2b8e41-4704-45a8-904a-a6bd3ee2ae2c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 01	dbc23f35-6c0a-4bcb-b937-83fbc48b1e8c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 14	0da5a1ed-ab12-426f-8b7e-5dbd2025d16a	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 14	fda37266-f8fa-4a5e-b0a8-b6bdd2ec1792	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 49	92a05b16-e3d5-468d-818b-1d23ff9e9d51	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 58: 49	ac545520-6579-4397-92ba-bce32f5b6cdb	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 22	650e31b8-582e-4fa8-bf42-37b486bf02c6	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 22	3d05526f-f53e-449c-8e07-08f6ba236aab	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 23	b420d7cd-ae70-4b23-a9b4-dcb0e2c13c31	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 25	7603901f-9697-4f5a-a4b0-9c1c636bf35d	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 34	aa6643ae-5e5d-45d8-a900-b22ade8ada95	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 34	3715fd90-9db4-4401-ad77-4a07a4098433	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 41	3493d499-683b-4156-bffe-d728fa244877	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 45	366dbc09-2ecb-49f1-9993-7908b7816c26	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 47	6554d3f3-451c-4386-a4e5-04dd743fbaa5	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 47	4e685f6b-4f5a-4852-a785-a14a2afc38b3	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 51	82cbfaf6-d73e-49e4-8fc5-bc7b67896c2a	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 51	7aa82653-addf-4728-b715-196d53828908	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 54	923ce5c9-157f-467e-8c12-2672261c1d23	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	02: 59: 54	94a753c9-c01c-4dbf-bb2f-42637386ad98	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	03: 00: 56	2094fd7e-5703-4c89-9172-b1c3696d1d07	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 01: 56	751d34cd-ab16-452d-9a1f-08367f95308c	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 02: 56	49d67754-858a-43bd-8535-976014f2c3cb	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 03: 56	46f5983c-9195-4a36-9c0e-9558fb40611b	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 04: 43	3ad960b6-b440-46dc-bbea-db52140fac71	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 04: 44	2dcf9036-bf54-401b-909a-31757c4c31c6	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 04: 47	b29902eb-1f82-47a2-972f-bea3b9e5f6a5	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 04: 53	dce3ded3-8dc4-4dfb-bc89-080153f3ba8a	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 04: 53	c3a8d52d-0496-4df7-b577-073cee119cf8	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+02/ 12/ 2022	03: 06: 10	15c93055-89ba-447d-8169-d1561d5315c9	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/users
+    	http://localhost:3000
+02/ 12/ 2022	03: 06: 10	21e788a5-489e-462c-b381-4f510ec3d1d2	TypeError: Cannot read properties of undefined (reading 'startsWith')	 GET	/notes
+    	http://localhost:3000
+05/ 12/ 2022	21: 47: 53	77ac7cbd-ef14-40f6-ba5e-260a41acf540	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+05/ 12/ 2022	21: 48: 52	83b1982c-8404-4475-a439-3464ab7721dd	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+05/ 12/ 2022	21: 54: 02	364e8c88-14cd-4a9b-9b5e-ed59cff57469	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+05/ 12/ 2022	21: 54: 54	9b1b640d-8715-4e52-b5cd-c5a9cec9ed0e	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+05/ 12/ 2022	22: 00: 18	dce63a1c-d7de-4d22-8937-f297bc92ccb8	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+05/ 12/ 2022	22: 01: 24	0903fc94-cb39-4315-93ac-d4288df1800a	TypeError: option maxAge is invalid	 POST	/auth/login
+    	http://localhost:3000
+06/ 12/ 2022	01: 16: 49	3ca0fd93-bebb-4723-b2ef-41126979e087	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 POST	/auth/login
+    	http://localhost:3000
+06/ 12/ 2022	21: 57: 35	8140320d-c4cb-4d86-8e49-9024fb03935c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	21: 58: 10	28a2d998-dafe-41bb-9f87-d9bdb7d321d5	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	21: 58: 23	7a47f23f-4e1b-494f-b8d0-a4bd3b6f7a45	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	21: 58: 58	7370a48e-a2d6-4765-b898-72b625ebb664	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	21: 59: 33	e1c29922-6117-49e9-b6dc-4b150bd591f5	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	22: 00: 08	29fc746c-73f8-4842-a4fc-9f0704395dab	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	22: 00: 43	87462872-7db0-4360-bd11-4e7723ff7151	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+06/ 12/ 2022	22: 01: 19	56182d40-c111-41f6-8355-e51a3908124a	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	13: 43: 08	b1de8041-e68e-49bb-b341-c6df354251cb	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 43: 43	dfee5ca4-b450-4166-a20f-ed796e78a525	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 44: 18	90577117-1311-4af7-9a15-bb1ff0be67e2	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 44: 53	f85011f8-c0d7-4aac-b369-a2045b677846	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 45: 29	6a883305-ddba-4771-ad63-2a4a5303e4a0	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 46: 04	7111d2a4-95e4-44fa-ad54-ba136650fe1d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 46: 39	db6bf649-59ea-4499-b738-43ce6c7cc52c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 47: 14	f7f57223-94c3-496b-8686-2594e1f1f563	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 47: 49	1d0e5aca-b0e1-4bc8-a247-7c010f956df9	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 48: 25	2f410011-6ff9-4739-9e42-0e17586de16f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 49: 00	fec026fc-17a7-40ec-b403-1b8f8f0c6461	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 49: 35	9dd03559-5c11-4d33-b288-fae90228674a	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 50: 10	912bffab-37d8-4560-ac59-02a60b328d1b	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 50: 45	c3ec00af-3f02-42ad-a3e9-fee821530832	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 51: 21	ad333b81-ade3-488f-8b2c-f9ea1546bbe1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 51: 56	97c04907-18d3-4446-8fa7-dd50cb9c40a7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 52: 31	08024e37-a695-41cc-bb28-d8a409724683	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 53: 06	10d5bb58-cb97-4f61-b190-8a290192348f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 53: 41	33b09abb-a35f-4c30-9eaf-d1825cb1ec2c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 54: 16	0b4b4821-64ed-4db5-b2ba-162e7017fddf	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 54: 52	33ea9b0f-ec81-46f2-a7c1-4fcd63b3d421	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 55: 27	de49aa38-79f1-46aa-a2e2-57f98ecded89	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 56: 02	cd68015d-561b-4786-8480-ee46fc6294bf	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 56: 37	7aae7ec0-dfbf-47cf-b004-984a989821c6	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	13: 57: 12	5a70a36a-3d62-40a9-ae5f-f4a7d2dd5280	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	14: 47: 20	52218a3e-a417-488c-8958-981d0094ea33	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 48: 02	5b539eca-4dba-4a4d-aca2-15284a4f352b	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 49: 02	fcfb8470-3c5f-472a-9b9a-a8dd6e8b3414	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 50: 02	d9925d77-677d-4da1-a2c9-38952324546d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 51: 02	6dd3cd61-7420-4b11-ae91-7ff8ee7d85f7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 52: 02	8beb1876-2bbf-4ed8-8f97-064ff7051479	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 53: 02	861ae0a3-18b8-4d62-b8fa-29baa9958298	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 54: 02	187291c4-3e7b-4143-8531-25db8e261eec	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 55: 02	0a52a1d3-2a6d-4798-ac2e-d95b1f3777af	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 56: 02	280d571b-4884-4d58-82f1-3a90eba8152c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	14: 57: 02	e408ddbe-d716-431b-abb8-5f673c83f8e6	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+08/ 12/ 2022	20: 42: 29	4135a52e-d6bd-41e9-9d57-6b8d4da98189	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 43: 04	7f1c53c6-0677-46ef-af06-a2b504ba8ed7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 43: 39	af859f37-04f1-4a6c-b0ec-7b3283f6fd36	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 44: 14	10cbbc4f-53e5-4a61-84f6-04dcca308c59	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 44: 49	3191d37a-c6a4-4e99-9a65-4e7088d86d1c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 45: 24	9b3c6548-c17a-49ec-a117-fa02607c0178	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 45: 59	6ffceda0-4ef6-4f51-9391-d3e634506f0f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 46: 34	82a9c9b4-89da-4897-9035-def10f29dca8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 47: 09	7b9662c7-5aee-4ff0-a5b2-44cbd53e6a04	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 47: 45	c6b631df-e72b-44d1-945a-3e33ae3eebe7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+08/ 12/ 2022	20: 48: 20	9bf07538-8a9f-4bcd-a22e-e9c6cd51f42c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
+09/ 12/ 2022	02: 25: 44	2ea18d24-fe05-4299-b756-f1074cdc0e8f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+09/ 12/ 2022	02: 26: 14	ce98b7c7-4027-4cda-8433-abc73e215395	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+09/ 12/ 2022	02: 27: 00	f5ea1232-791b-47c7-909c-53ca6eed0765	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+09/ 12/ 2022	02: 27: 30	1730b849-b436-4298-8220-ad1981a40260	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+09/ 12/ 2022	02: 28: 05	3c9582a4-7684-4ab6-aa72-190284b0980f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/notes
+    	http://localhost:3000
+09/ 12/ 2022	02: 28: 05	55b35d11-0c69-4a10-b665-135c784728dd	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	 GET	/users
+    	http://localhost:3000
