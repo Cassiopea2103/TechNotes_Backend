@@ -48,7 +48,7 @@ const createUser= asyncHandler(
         }
         
         // verify duplicates: 
-        const duplicate= await User.findOne({"username": username}).collation({locatiion: 'en', strength: 2}).lean().exec()
+        const duplicate= await User.findOne({"username": username}).collation({locale: 'en', strength: 2}).lean().exec()
 
         if (duplicate){
             return response.status(409).json(
@@ -73,6 +73,7 @@ const createUser= asyncHandler(
                             "password": hashedPassword,
                             "roles": roles
                         }
+
 
         const user= await User.create(userObject)
 
@@ -127,7 +128,7 @@ const updateUser= asyncHandler(
         }
 
         // find duplicates for the username: 
-        const duplicate= await User.findOne({"username": foundUser.username}).collation({locatiion: 'en', strength: 2}).lean().exec()
+        const duplicate= await User.findOne({"username": foundUser.username}).collation({locale: 'en', strength: 2}).lean().exec()
         
         // check if the duplicate has the same id as the request id data:
         const impossibleUpdate= duplicate && duplicate._id.toString() !== id 
